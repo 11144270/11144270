@@ -1,0 +1,556 @@
+body{
+    background-color: #FCFF9D;
+}
+
+p{
+    color:#11743F;
+    font-family: "微軟正黑體";
+    font-size: 20px;
+}
+
+.content {
+    margin-left: 370px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+/*目錄*/
+.side {
+    background-color: #55CCA9;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    min-height: 100%;
+    width: 350px;
+}
+
+.side h3{
+    color: #11743F;
+    margin-bottom: -5px;
+    font-size: 35px;
+    padding-top: 65px;
+    padding-left: 35px;
+}
+
+.side hr{
+    border: none;
+    height: 6px;
+    background-color: #FCFF9D;
+    width: 110%;
+    margin-bottom: -15px;
+    margin-left: 10%;
+}
+
+.list{
+    position: absolute;
+    left: 20px;
+}
+
+.list a:hover {
+    background-color: #7FE8C9;
+    margin-left: 30px;
+    padding-left: 0px;
+}
+
+.side a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 28px;
+    padding-left: 35px;
+}
+
+/*口號*/
+.slogan{
+    background-color: #55CCA9;
+    width: 80%;
+    height: 20%;
+    margin: 15px auto 5px auto;
+    padding: 15px;
+}
+
+.slogan h1{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.content hr{
+    border: none;
+    height: 6px;
+    background-color: #55CCA9;
+    width: 100%;
+    margin: 35px auto 35px auto;
+}
+
+h2{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 15px;
+    color: #6F7114;
+    display: block;
+}
+
+/*個人基本資訊*/
+.info{
+    background-color: #7FE8C9;
+    border: none;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.left{
+    border-right: 4px #55CCA9 solid;
+    width: 50%;
+    padding-right: 30px;
+    font-weight: bold;
+}
+
+.left img{
+    float: left;
+    margin-right: 30px;
+    width: 190px;
+    height: 300px; 
+    border: 5px solid #6F7114;
+    border-radius: 20px;
+}
+
+.left p{
+    background-color: white;
+}
+
+.left a{
+    text-decoration: none;
+}
+
+/*特質--------------------------------動畫*/
+.right{
+    background-color: white;
+    margin-left: 30px;
+    width: 50%;
+    overflow: auto;
+    text-align: center;
+    color:#11743F;
+    font-family: "微軟正黑體";
+    font-size: 25px;
+}
+
+.right ul{
+    margin-left: 15px;
+}
+
+.right li{
+    margin: 5px;
+    width: 80px;
+    border-right-style: solid;
+    border-right-color: #6F7114;
+}
+
+.fir{
+    animation: bar1 2s ease-out;
+    border-right-width: 250px;
+}
+
+@keyframes bar1{/*動畫*/
+    from{
+        border-right-width: 0px;
+    }
+    to{
+        border-right-width: 250px;
+    }
+}
+
+.sec{
+    animation: bar2 2s ease-out;
+    border-right-width: 180px;
+}
+
+@keyframes bar2{/*動畫*/
+    from{
+        border-right-width: 0px;
+    }
+    to{
+        border-right-width: 180px;
+    }
+}
+
+.thi{
+    animation: bar3 2s ease-out;
+    border-right-width: 300px;
+}
+
+@keyframes bar3{/*動畫*/
+    from{
+        border-right-width: 0px;
+    }
+    to{
+        border-right-width: 300px;
+    }
+}
+
+.for{
+    animation: bar4 2s ease-out;
+    border-right-width: 250px;
+}
+
+@keyframes bar4{/*動畫*/
+    from{
+        border-right-width: 0px;
+    }
+    to{
+        border-right-width: 250px;
+    }
+}
+
+.fif{
+    animation: bar5 2s ease-out;
+    border-right-width: 300px;
+}
+
+@keyframes bar5{/*動畫*/
+    from{
+        border-right-width: 0px;
+    }
+    to{
+        border-right-width: 300px;
+    }
+}
+
+/*個人專業*/
+.both{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    
+}
+
+.both01 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.prof{
+    background-color: #7FE8C9;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 50px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.match{
+    margin: auto;
+    text-align: center;
+    color: #11743F;
+}
+
+.match p{
+    margin: 0px;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: white;
+}
+
+.pbar1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, #7FE8C9 70%, transparent 50% 50%),
+      conic-gradient(#6F7114 70%, #FCFF9D 0);    
+}
+
+.pbar2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: 
+        radial-gradient(closest-side, #7FE8C9 70%, transparent 50% 50%),
+        conic-gradient(#6F7114 80%, #FCFF9D 0);    
+}
+
+.pbar3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: 
+        radial-gradient(closest-side, #7FE8C9 70%, transparent 50% 50%),
+        conic-gradient(#6F7114 60%, #FCFF9D 0);    
+}
+
+.pbar4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: 
+        radial-gradient(closest-side, #7FE8C9 70%, transparent 50% 50%),
+        conic-gradient(#6F7114 70%, #FCFF9D 0);    
+}
+
+/*技能*/
+.skill{
+    background-color: #7FE8C9;
+    height: 100%;
+    padding: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color:#11743F;
+    font-family: "微軟正黑體";
+    font-size: 20px;
+}
+
+/*語言*/
+.up{
+    border: none;
+    margin-top: 30px;
+    padding: 0px 30px -10px 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    font-family: "微軟正黑體";
+    font-size: 25px;
+}
+
+.up p{
+    margin: 0px;
+    background-color: white;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.skill hr{
+    border: none;
+    height: 6px;
+    background-color: #55CCA9;
+    width: 100%;
+    margin: 30px 50px 10px 50px;
+}
+
+/*興趣*/
+.down{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    font-family: "微軟正黑體";
+    font-size: 25px;
+    align-items: center;
+}
+
+.down01{
+    background-color: white;
+    border: none;
+    padding: 2px;
+    margin: 0px 20px 20px 20px;
+    border-radius: 20px;
+    display: flex;
+    width: 100%;
+    font-weight: lighter;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.down01 img{
+    border-radius: 20px;
+}
+
+/*個人經歷*/
+.story{
+    background-color: #7FE8C9;
+    border: none;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    padding: 0px 30px 30px 30px;
+}
+
+.block{
+    background-color: white;
+    border: none;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.block img{
+    margin-right: 30px;
+}
+
+.block p{
+    justify-content: center;
+    color:#11743F;
+    font-family: "微軟正黑體";
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+
+/*其他聯絡資訊*/
+.contact{
+    background-color: #7FE8C9;
+    border: none;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+    padding: 20px;
+}
+
+.acc{
+    flex: 1;
+    border: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.acc img{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.acc p{
+    margin: 10px auto -5px auto;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+.acc a {
+    text-decoration: none;
+}
+
+.acc p:hover {
+    background-color: white;
+}
+
+footer{
+    background-color: #55CCA9;
+    text-align: center;
+    padding: 10px;
+    margin-left: 342px;
+    margin-right: -8px;
+    margin-bottom: -20px;
+    color: white;
+    font-family: "微軟正黑體";
+    font-size: 20px;
+}
+
+/*變小*/
+@media screen and (max-width: 900px) {
+    .side {
+      display: none;
+    }
+
+    .content{
+        margin: auto;
+        padding-right: 20px;
+    }
+
+    .info{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .left{
+        display: flex;
+        flex-direction: column;
+
+        border: none;
+        margin: auto;
+        padding: auto;
+        width: 100%;
+    }
+
+    .right{
+        margin: auto;
+        padding: auto;
+        width: 100%;
+    }
+
+    .both{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .prof{
+        margin-right: 15px;
+    }
+
+    .skill{
+        margin-left: 15px;
+    }
+
+    .up{
+        margin-top: 35px;
+        padding: 0px 0px 10px 0px;
+    }
+
+    .down01{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .down img{
+        margin-top: 20px;
+    }
+
+    .story{
+        padding-right: 30px;
+    }
+
+    .block{
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+    }
+
+    .block img{
+        margin-right: 0px;
+    }
+
+    footer{
+        margin-left: -20px;
+        margin-right: -8px;
+    }
+  }
