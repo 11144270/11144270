@@ -1,9 +1,9 @@
 body{
-    background-color: #FCFF9D;
+    background-color: #F5F7F8;
 }
 
 p{
-    color:#11743F;
+    color:#495E57;
     font-family: "微軟正黑體";
     font-size: 20px;
 }
@@ -18,7 +18,7 @@ p{
 
 /*目錄*/
 .side {
-    background-color: #55CCA9;
+    background-color: #495E57;
     position: fixed;
     left: 0px;
     top: 0px;
@@ -27,7 +27,7 @@ p{
 }
 
 .side h3{
-    color: #11743F;
+    color: #F5F7F8;
     margin-bottom: -5px;
     font-size: 35px;
     padding-top: 65px;
@@ -37,7 +37,7 @@ p{
 .side hr{
     border: none;
     height: 6px;
-    background-color: #FCFF9D;
+    background-color: #F5F7F8;
     width: 110%;
     margin-bottom: -15px;
     margin-left: 10%;
@@ -49,14 +49,14 @@ p{
 }
 
 .list a:hover {
-    background-color: #7FE8C9;
+    background-color: #45474B;
     margin-left: 30px;
     padding-left: 0px;
 }
 
 .side a {
     text-decoration: none;
-    color: white;
+    color: #F4CE14;
     margin-bottom: 30px;
     margin-top: 30px;
     font-size: 28px;
@@ -65,7 +65,9 @@ p{
 
 /*口號*/
 .slogan{
-    background-color: #55CCA9;
+    background-color: #F4CE14;
+    border: 6px dashed #495E57;
+    border-radius: 20px;
     width: 80%;
     height: 20%;
     margin: 15px auto 5px auto;
@@ -73,7 +75,7 @@ p{
 }
 
 .slogan h1{
-    color: white;
+    color: #F5F7F8;
     text-align: center;
     font-size: 35px;
     margin-top: 3px;
@@ -83,7 +85,7 @@ p{
 .content hr{
     border: none;
     height: 6px;
-    background-color: #55CCA9;
+    background-color: #495E57;
     width: 100%;
     margin: 35px auto 35px auto;
 }
@@ -92,25 +94,25 @@ h2{
     margin-bottom: 0px;
     margin-top: 0px;
     margin-left: 15px;
-    color: #6F7114;
+    color: #495E57;
     display: block;
 }
 
 /*個人基本資訊*/
 .info{
-    background-color: #7FE8C9;
+    background-color: #F4CE14;
     border: none;
     padding: 30px;
     border-radius: 20px;
     display: flex;
     margin-bottom: 35px;
+    border: 6px dashed #495E57;
 }
 
 .left{
-    border-right: 4px #55CCA9 solid;
+    border-right: 6px #495E57 solid;
     width: 50%;
     padding-right: 30px;
-    font-weight: bold;
 }
 
 .left img{
@@ -118,12 +120,13 @@ h2{
     margin-right: 30px;
     width: 190px;
     height: 300px; 
-    border: 5px solid #6F7114;
+    border: 6px solid #45474B;
     border-radius: 20px;
 }
 
 .left p{
-    background-color: white;
+    background-color: #F5F7F8;
+    border-radius: 20pt;
 }
 
 .left a{
@@ -132,12 +135,13 @@ h2{
 
 /*特質--------------------------------動畫*/
 .right{
-    background-color: white;
+    background-color: #F5F7F8;
+    border-radius: 20pt;
     margin-left: 30px;
     width: 50%;
     overflow: auto;
     text-align: center;
-    color:#11743F;
+    color:#495E57;
     font-family: "微軟正黑體";
     font-size: 25px;
 }
@@ -150,7 +154,7 @@ h2{
     margin: 5px;
     width: 80px;
     border-right-style: solid;
-    border-right-color: #6F7114;
+    border-right-color: #495E57;
 }
 
 .fir{
@@ -228,17 +232,17 @@ h2{
     display: flex;
     justify-content: space-between;
     margin-bottom: 35px;
-    
 }
 
 .both01 {
     display: flex;
     width: 100%;
     flex-direction: column;
+    
 }
 
 .prof{
-    background-color: #7FE8C9;
+    background-color: #F4CE14;
     border: none;
     padding: 20px;
     border-radius: 20px;
@@ -249,19 +253,21 @@ h2{
     justify-content: center;
     font-weight: bold;
     font-size: 30px;
+    border: 6px dashed #495E57;
 }
 
 .match{
     margin: auto;
     text-align: center;
-    color: #11743F;
+    color: #495E57;
 }
 
 .match p{
     margin: 0px;
     font-weight: bold;
     font-size: 25px;
-    background-color: white;
+    background-color: #495E57;
+    color: #F5F7F8;
 }
 
 .pbar1 {
@@ -273,8 +279,8 @@ h2{
     height: 150px;
     border-radius: 50%;
     background: 
-      radial-gradient(closest-side, #7FE8C9 70%, transparent 50% 50%),
-      conic-gradient(#6F7114 70%, #FCFF9D 0);    
+      radial-gradient(closest-side, #F4CE14 70%, transparent 50% 50%),
+      conic-gradient(#45474B 70%, #F5F7F8 0);    
 }
 
 .pbar2 {
@@ -286,8 +292,8 @@ h2{
     height: 150px;
     border-radius: 50%;
     background: 
-        radial-gradient(closest-side, #7FE8C9 70%, transparent 50% 50%),
-        conic-gradient(#6F7114 80%, #FCFF9D 0);    
+        radial-gradient(closest-side, #F4CE14 70%, transparent 50% 50%),
+        conic-gradient(#45474B 70%, #F5F7F8 0);    
 }
 
 .pbar3 {
@@ -299,8 +305,8 @@ h2{
     height: 150px;
     border-radius: 50%;
     background: 
-        radial-gradient(closest-side, #7FE8C9 70%, transparent 50% 50%),
-        conic-gradient(#6F7114 60%, #FCFF9D 0);    
+        radial-gradient(closest-side, #F4CE14 70%, transparent 50% 50%),
+        conic-gradient(#45474B 70%, #F5F7F8 0);    
 }
 
 .pbar4 {
@@ -312,27 +318,27 @@ h2{
     height: 150px;
     border-radius: 50%;
     background: 
-        radial-gradient(closest-side, #7FE8C9 70%, transparent 50% 50%),
-        conic-gradient(#6F7114 70%, #FCFF9D 0);    
+        radial-gradient(closest-side, #F4CE14 70%, transparent 50% 50%),
+        conic-gradient(#45474B 70%, #F5F7F8 0);
 }
 
 /*技能*/
 .skill{
-    background-color: #7FE8C9;
+    border: 6px dashed #495E57;
+    background-color: #F4CE14;
     height: 100%;
     padding: auto;
     border-radius: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    color:#11743F;
+    color:#495E57;
     font-family: "微軟正黑體";
     font-size: 20px;
 }
 
 /*語言*/
 .up{
-    border: none;
     margin-top: 30px;
     padding: 0px 30px -10px 30px;
     display: flex;
@@ -345,7 +351,7 @@ h2{
 
 .up p{
     margin: 0px;
-    background-color: white;
+    background-color: #F5F7F8;
     font-weight: lighter;
     font-size: 30px;
 }
@@ -353,7 +359,7 @@ h2{
 .skill hr{
     border: none;
     height: 6px;
-    background-color: #55CCA9;
+    background-color: #495E57;
     width: 100%;
     margin: 30px 50px 10px 50px;
 }
@@ -371,7 +377,7 @@ h2{
 }
 
 .down01{
-    background-color: white;
+    background-color: #F5F7F8;
     border: none;
     padding: 2px;
     margin: 0px 20px 20px 20px;
@@ -390,33 +396,37 @@ h2{
 
 /*個人經歷*/
 .story{
-    background-color: #7FE8C9;
+    background-color: #F4CE14;
     border: none;
-    padding: 30px;
     border-radius: 20px;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 40px;
-    padding: 0px 30px 30px 30px;
+    padding: 0px 35px 35px 35px;
+    border: 6px dashed #495E57;
 }
 
 .block{
-    background-color: white;
+    background-color: #F5F7F8;
     border: none;
     padding: 30px;
     border-radius: 20px;
     display: flex;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
 .block img{
     margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
 }
 
 .block p{
     justify-content: center;
-    color:#11743F;
+    color:#495E57;
     font-family: "微軟正黑體";
     font-size: 22px;
     display: flex;
@@ -425,8 +435,8 @@ h2{
 
 /*其他聯絡資訊*/
 .contact{
-    background-color: #7FE8C9;
-    border: none;
+    border: 6px dashed #495E57;
+    background-color: #F4CE14;
     padding: 30px;
     border-radius: 20px;
     display: flex;
@@ -437,13 +447,13 @@ h2{
 
 .acc{
     flex: 1;
-    border: black;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .acc img{
+    border: 4pt solid #45474B;
     border-radius: 50%;
     height: 70px;
     width: 70px;
@@ -461,17 +471,17 @@ h2{
 }
 
 .acc p:hover {
-    background-color: white;
+    background-color: #F5F7F8;
 }
 
 footer{
-    background-color: #55CCA9;
+    background-color: #45474B;
     text-align: center;
     padding: 10px;
     margin-left: 342px;
     margin-right: -8px;
     margin-bottom: -20px;
-    color: white;
+    color: #F5F7F8;
     font-family: "微軟正黑體";
     font-size: 20px;
 }
@@ -479,7 +489,7 @@ footer{
 /*變小*/
 @media screen and (max-width: 900px) {
     .side {
-      display: none;
+        display: none;
     }
 
     .content{
