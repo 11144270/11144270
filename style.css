@@ -575,7 +575,7 @@ footer{
         text-align: center;
         border: none;
         margin: auto;
-        padding: auto;
+        padding: 0px;
         width: 100%;
     }
 
@@ -593,6 +593,12 @@ footer{
     .both{
         display: flex;
         flex-wrap: wrap;
+        margin: auto;
+        padding: auto;
+    }
+
+    .both01{
+        margin: 30px 0px 30px 0px;
     }
 
     .prof{
@@ -608,13 +614,11 @@ footer{
         padding: 0px 0px 10px 0px;
     }
 
-    .down01{
+    .down{
         display: flex;
         flex-direction: column;
-    }
-
-    .down img{
-        margin-top: 20px;
+        align-items: center;
+        padding-bottom: 30px;
     }
 
     .story{
@@ -629,6 +633,11 @@ footer{
 
     .block img{
         margin-right: 0px;
+    }
+
+    .acc{
+        margin-left:10px;
+        margin-top: 10px;
     }
 
     footer{
