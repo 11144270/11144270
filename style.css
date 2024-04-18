@@ -545,7 +545,7 @@ footer{
     position: fixed;
     right: 10px;
     bottom: 10px;
-    border: 3px solid #45474B;
+    border: 5px solid #45474B;
     border-radius: 50%;
 }
 
@@ -598,15 +598,16 @@ footer{
     }
 
     .both01{
-        margin: 30px 0px 30px 0px;
+        margin: 0px 5px 0px 0px;
     }
 
     .prof{
-        margin-right: 15px;
+        margin-right: -5px;
+        margin-bottom: 40px;
     }
 
     .skill{
-        margin-left: 15px;
+        margin: 0px -5px 40px 5px;
     }
 
     .up{
@@ -629,10 +630,6 @@ footer{
         display: flex;
         flex-direction: column;
         overflow: auto;
-    }
-
-    .block img{
-        margin-right: 0px;
     }
 
     .acc{
